@@ -1,0 +1,8 @@
+bin/selenium-server-standalone.jar
+bin/chromedriver
+bin/geckodriver
+test_output
+logs
+screenshots
+reports
+.env

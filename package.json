@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:remote": "nightwatch -c nightwatch.remote.js",
+    "test:local": "nightwatch -c nightwatch.local.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "nightwatch": "^0.9.16"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
