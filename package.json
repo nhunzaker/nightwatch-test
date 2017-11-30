@@ -1,8 +1,6 @@
 {
   "name": "nightwatch-test",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
   "scripts": {
     "test:remote": "nightwatch -c nightwatch.remote.js",
     "test:local": "nightwatch -c nightwatch.local.js"
